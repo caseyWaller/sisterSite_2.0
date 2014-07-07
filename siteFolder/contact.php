@@ -45,6 +45,8 @@
 
             <h1 class="logo"><a href="index.php"><img itemprop="logo" src="IMG/sisLogo.svg" alt="Sister Technologies Logo" width="200" onerror="this.onerror=null; this.src='IMG/sisLogo.png'"></a></h1>
 
+            <h4 class="phone">Phone: (972)855-3500</h4>
+
             <nav class="mainNav">
                 <a href="products.php">PRODUCTS</a>
                 <a href="company.php">COMPANY</a>
@@ -86,14 +88,14 @@
                     <label for="Url">Website</label>
                     <input type="text" placeholder="yourwebsite.com" name="Url" id="Url">
 
-                    <div id="select">
+            <!--        <div id="select">
                         <label for="Product" id="selectArrow">Product Interest</label>
                         <select name="Product" id="Product">
                             <option value="Video-Carlot">Video Carlot</option>
                             <option value="EZ 360">EZ360</option>
                             <option value="SPIN-IT">SPIN IT</option>
-                        </select>
-                    </div>
+                        </select> 
+                    </div> -->
 
                     <label for="message">What can we help you with?</label>
                     <textarea name="Message" id="message" cols="30" rows="10"></textarea>
@@ -118,7 +120,7 @@
                     <div class="org" itemprop="name">Sister Technologies</div>
                     <div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <div class="street-address" itemprop="streetAddress">4144 N. Central Expressway</div>
-                        <span>Suite 700</span><br>
+                        <span>Suite 710</span><br>
                         <span class="locality" itemprop="addressLocality">Dallas,</span> 
                         <span class="region" itemprop="addressRegion">TX  </span> 
                         <span class="postal-code" itemprop="postalCode">75204</span><br>
@@ -132,6 +134,18 @@
         </div>
 
         <footer class="clearfix" id="ieFooter">
+            <div class="links">
+                <ul class="links clearfix">
+                        <li><a href="products.php">PRODUCTS</a></li>
+                        <li><a href="carlot.php">VIDEO CARLOT</a></li>
+                        <li><a href="ez.php">EZ 360</a></li>
+                        <li><a href="spin.php">SPIN IT</a></li>
+                        <li><a href="company.php">COMPANY</a></li>
+                        <li><a href="press.php">PRESS</a></li>
+                        <li><a href="contact.php">CONTACT</a></li>
+                    </ul>    
+            </div>
+
             <a id="fb" href="https://www.facebook.com/sister.tv"><img src="IMG/facebook.svg" alt="facebook" width="100" onerror="this.onerror=null; this.src='IMG/facebook.png'"></a>
             <a id="youtube" href="https://www.youtube.com/user/PoweredBySiSTeR"><img src="IMG/youtube.svg" alt="youtube" width="100" onerror="this.onerror=null; this.src='IMG/youtube.png'"></a>
             <a id="twitter" href="https://twitter.com/sistervideo"><img src="IMG/twitter.svg" alt="twitter" width="100" onerror="this.onerror=null; this.src='IMG/twitter.png'"></a>

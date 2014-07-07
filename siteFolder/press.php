@@ -45,6 +45,8 @@
 
             <h1 class="logo"><a href="index.php"><img itemprop="logo" src="IMG/sisLogo.svg" alt="Sister Technologies Logo" width="200" onerror="this.onerror=null; this.src='IMG/sisLogo.png'"></a></h1>
 
+            <h4 class="phone">Phone: (972)855-3500</h4>
+
             <nav class="mainNav">
                 <a href="products.php">PRODUCTS</a>
                 <a href="company.php">COMPANY</a>
@@ -95,6 +97,18 @@
         </div>
 
         <footer class="clearfix" id="ieFooter">
+            <div class="links">
+                <ul class="links clearfix">
+                        <li><a href="products.php">PRODUCTS</a></li>
+                        <li><a href="carlot.php">VIDEO CARLOT</a></li>
+                        <li><a href="ez.php">EZ 360</a></li>
+                        <li><a href="spin.php">SPIN IT</a></li>
+                        <li><a href="company.php">COMPANY</a></li>
+                        <li><a href="press.php">PRESS</a></li>
+                        <li><a href="contact.php">CONTACT</a></li>
+                    </ul>    
+            </div>
+
             <a id="fb" href="https://www.facebook.com/sister.tv"><img src="IMG/facebook.svg" alt="facebook" width="100" onerror="this.onerror=null; this.src='IMG/facebook.png'"></a>
             <a id="youtube" href="https://www.youtube.com/user/PoweredBySiSTeR"><img src="IMG/youtube.svg" alt="youtube" width="100" onerror="this.onerror=null; this.src='IMG/youtube.png'"></a>
             <a id="twitter" href="https://twitter.com/sistervideo"><img src="IMG/twitter.svg" alt="twitter" width="100" onerror="this.onerror=null; this.src='IMG/twitter.png'"></a>
